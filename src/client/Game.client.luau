@@ -15,7 +15,6 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 local leaderstats = player:WaitForChild("leaderstats")
 local moneyValue = leaderstats:WaitForChild("Money")
-local rebirthValue = leaderstats:WaitForChild("Rebirths")
 
 local gui = Instance.new("ScreenGui")
 gui.Name = "PasarMalamGui"
